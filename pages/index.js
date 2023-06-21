@@ -4,9 +4,7 @@ import EventList from "@/components/event-list";
 function HomePage() {
 
     const featuredEvents = getFeaturedEvents();
-    return (<div>
-        <EventList items={featuredEvents}/>
-    </div>)
+    return <EventList items={featuredEvents}/>
 }
 
 export default HomePage;
